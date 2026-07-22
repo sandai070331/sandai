@@ -1,3 +1,12 @@
 .env
 node_modules/
 .vs/
+# VS IDE本地缓存、用户配置，不属于代码/编译产物
+*.suo
+.vs/
+# VS浏览数据库缓存
+Browse.VC.db
+Browse.VC.db-shm
+Browse.VC.db-wal
+# 窗口布局缓存
+DocumentLayout.json
