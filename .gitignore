@@ -84,3 +84,20 @@ DocumentLayout.json
 # - IDE 个人配置 (.idea/workspace.xml 等)
 # - node_modules/
 # - .vs/ (VS Code/VS 缓存)
+
+# =====================
+# macOS / clang 编译产物
+# =====================
+*.dSYM/
+*.o
+*.out
+a.out
+*.dylib
+
+# 无扩展名的可执行文件
+aaa
+main
+05构造函数和析构函数
+cpp/04成员属性设置为私有
+cpp/封装的意义
+cpp/封装联系
