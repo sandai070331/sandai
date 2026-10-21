@@ -1,86 +1,73 @@
-# =====================
-# PyCharm / IntelliJ IDEA
-# =====================
+# ===== 操作系统 / 编辑器杂项 =====
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+
+# ===== IDE / 编辑器 =====
 .idea/
 *.iml
-*.ipr
-*.iws
-out/
-build/
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-.Python
-pip-log.txt
-pip-delete-this-directory.txt
-
-# =====================
-# Python 缓存和编译产物
-# =====================
-*.py[cod]
-*$py.class
-*.so
-.pytest_cache/
-.coverage
-htmlcov/
-.tox/
-.nox/
-.hypothesis/
-*.egg-info/
-dist/
-eggs/
-wheels/
-
-# =====================
-# 虚拟环境
-# =====================
-venv/
-env/
-ENV/
-.venv
-
-# =====================
-# IDE 和其他编辑器
-# =====================
 .vs/
 .vscode/
 *.suo
-*~
-.DS_Store
-
-# =====================
-# Node.js (保留现有)
-# =====================
-node_modules/
-
-# =====================
-# 环境变量和本地配置
-# =====================
-.env
-.local
-*.local
-
-# =====================
-# VS 本地缓存（保留原有）
-# =====================
+*.user
 Browse.VC.db
 Browse.VC.db-shm
 Browse.VC.db-wal
 DocumentLayout.json
 
-# =====================
-# 允许上传的目录说明
-# =====================
-# 允许上传：
-# - 所有 .py 源代码文件
-# - PyCharm 项目配置文件 (.idea/ 除外，但保留部分共享配置)
-# - 编译产物 (__pycache__/*.pyc 除外)
-# - requirements.txt 等依赖声明文件
-#
-# 不上传：
-# - 所有缓存文件 (__pycache__, *.pyc, .pytest_cache 等)
-# - 虚拟环境 (venv/, env/)
-# - IDE 个人配置 (.idea/workspace.xml 等)
-# - node_modules/
-# - .vs/ (VS Code/VS 缓存)
+# ===== C / C++ 构建产物 =====
+[Bb]in/
+[Oo]bj/
+x64/
+[Dd]ebug/
+[Rr]elease/
+*.exe
+*.dll
+*.pdb
+*.ilk
+*.obj
+*.o
+*.idb
+*.ipch
+*.tlog
+
+# ===== Python =====
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+*.so
+
+# ===== Node.js =====
+node_modules/
+npm-debug.log*
+yarn-error.log*
+
+# ===== 密钥 / 本地配置（绝不提交） =====
+.env
+.env.*
+*.key
+*.pem
+secrets.json
+
+# ===== 本地归档（zip 作业包等，只留档不入库） =====
+_archives/
+
+# ===== macOS / clang 编译产物（Mac 端同步用） =====
+*.dSYM/
+*.dylib
+*.out
+a.out
+.DS_Store
+

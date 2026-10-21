@@ -1,0 +1,7 @@
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+    <Platform Name="x86" />
+  </Configurations>
+  <Project Path="704.二分查找/704.二分查找.vcxproj" Id="b3ee903d-285d-4e34-8ec9-e70fc56ab504" />
+</Solution>
